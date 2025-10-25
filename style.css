@@ -68,6 +68,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
 header > h1, header > h2 {
   text-shadow: 2px 2px 10px rgb(0, 0, 0);
@@ -82,7 +84,7 @@ header > h1, header > h2 {
   background: url('./assets/headers/header-two.jpg') no-repeat center/cover;
 }
 .header-three {
-  background: url('./assets/headers/header-three.png') no-repeat center/cover;
+  background: url('./assets/headers/header-three.jpg') no-repeat center/cover;
 }
 .header-four {
   background: url('./assets/headers/header-four.jpg') no-repeat center/cover;
